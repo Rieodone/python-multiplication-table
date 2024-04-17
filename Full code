@@ -1,0 +1,21 @@
+def generate_multiplication_table(n):
+    """
+    Generate a multiplication table up to the given number.
+
+    Args:
+        n (int): The maximum number for the multiplication table.
+
+    Returns:
+        str: A formatted string representing the multiplication table.
+    """
+    table = ""
+    for i in range(1, n+1):
+        for j in range(1, n+1):
+            table += f"{i} * {j} = {i*j}\t"
+        table += "\n"
+    return table
+
+if __name__ == "__main__":
+    max_number = 9
+    multiplication_table = generate_multiplication_table(max_number)
+    print(multiplication_table)
