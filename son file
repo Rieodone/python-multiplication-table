@@ -1,0 +1,15 @@
+# 寻找所有偶数
+even_numbers = [num for num in range(2, 50001, 2)]
+
+# 计算所有偶数的和
+sum_of_even_numbers = sum(even_numbers)
+
+# 计算1到50000的和
+sum_of_all_numbers = sum(range(1, 50001))
+
+# 将相加的和除以1到50000的和
+result = sum_of_even_numbers / sum_of_all_numbers
+
+print("所有偶数的和：", sum_of_even_numbers)
+print("1到50000的和：", sum_of_all_numbers)
+print("相加的和除以1到50000的和：", result)
