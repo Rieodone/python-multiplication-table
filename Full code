@@ -3,7 +3,7 @@ def generate_multiplication_table(n):
     Generate a multiplication table up to the given number.
 
     Args:
-        n (int): The maximum number for the multiplication table.
+        n (int1): The maximum number for the multiplication table.
 
     Returns:
         str: A formatted string representing the multiplication table.
